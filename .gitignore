@@ -1,0 +1,35 @@
+# Nada de credenciales ni inventarios reales en este repo
+*.env
+.env*
+secrets/
+credenciales*
+inventario-real*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+known_hosts
+*cookies*
+
+# Capturas y configs de equipos: pueden llevar IPs, comunidades SNMP y datos de cliente
+*.pcap
+*.pcapng
+configs/
+backups/
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
