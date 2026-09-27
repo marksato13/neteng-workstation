@@ -82,7 +82,26 @@ Dos ficheros, en este orden:
 
 ---
 
-## Documentación
+## Cómo funciona y cómo se usa cada herramienta
+
+**→ [herramientas/](herramientas/)** — la parte central de este repositorio.
+
+Una guía por herramienta: qué hace por dentro, cuándo sacarla y comandos reales, con diagramas Mermaid donde aclaran algo.
+
+| | |
+|---|---|
+| [Índice + árbol de decisión](herramientas/README.md) | Qué abrir según el síntoma, y en qué capa actúa cada cosa |
+| [01 · Acceso](herramientas/01-acceso.md) | SSH · PuTTY · WinSCP · Tabby |
+| [02 · Diagnóstico](herramientas/02-diagnostico.md) | ping · tracert · pathping · mtr · dig · netstat · arp · route · iperf3 |
+| [03 · Captura](herramientas/03-captura.md) | Npcap · Wireshark · tshark · tcpdump |
+| [04 · Descubrimiento](herramientas/04-descubrimiento.md) | nmap · ncat · psping |
+| [05 · SNMP](herramientas/05-snmp.md) | snmpwalk · snmpget · MIBs |
+| [06 · Sistema](herramientas/06-sistema.md) | TCPView · Process Explorer · PsTools |
+| [07 · Datos y cripto](herramientas/07-datos-cripto.md) | jq · OpenSSL · curl |
+| [08 · Automatización](herramientas/08-automatizacion.md) | Python · netmiko · napalm · nornir · Ansible |
+| [09 · Lo que NO está](herramientas/09-no-instalado.md) | Y por qué, y cómo se usaría |
+
+## Resto de documentación
 
 | | |
 |---|---|
